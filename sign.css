@@ -1,0 +1,50 @@
+.registerForm {
+    width: 25%;
+    margin: 50px auto;
+    background-color: rgb(240, 240, 240);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0);
+}
+
+.registerForm h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0);
+}
+
+.inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label {
+    margin-top: 10px;
+}
+
+.inputGroup input {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.inputGroup button {
+    margin-top: 10px;
+    height: 40px;
+    background-color:lightblue;
+    border-radius: 10px;
+}
+
+.resetButton {
+    margin-top: 10px;
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 150px;
+}
+.inputGroup button:hover{
+        background-color:black;
+        color: white;
+}
